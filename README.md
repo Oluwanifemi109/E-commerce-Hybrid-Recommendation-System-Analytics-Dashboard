@@ -4,7 +4,7 @@
 Dataset: UCI Online Retail (2010–2011) – 541k transactions, 4,372 customers
 
 ### 📃Project Summary
-Built a **hybrid recommendation system** (Association Rules + Content-Based) for a UK-based online gift retailer using the famous UCI Online Retail dataset (£950k+ revenue, 5,800+ customers, 5,300+ unique products).
+Built a **hybrid recommendation system** (Association Rules + Content-Based) for a UK-based online gift retailer using the famous UCI Online Retail dataset (£950k+ revenue, 4,300+ customers, 5,300+ unique products).
 
 ### 🏋️‍♂️ The Challenge
 A UK-based online gift & homeware store was leaving money on the table:
@@ -30,9 +30,9 @@ I built a **true hybrid system** combining two proven methods while also doing a
 | Metric                            | Value                                 |
 |-----------------------------------|---------------------------------------|
 | Total revenue analysed            | £951,900                              |
-| Number of customers               | 5,897                                 |
-| Number of transactions            | 25,900+                               |
-| Customers who received 3 recs     | **100%** (5,897 / 5,897)               |
+| Number of customers               | 4,372                                 |
+| Number of orders(unique Invoices) | 25,900+                               |
+| Customers who received 3 recs     | **100%** (4,372 /4,372)               |
 | Strongest rule confidence         | 91% (Green Regency Teacup → Roses Regency Teacup) |
 | Average rule lift                 | 8.2×                                  |
 | Top recommended product           | JUMBO BAG RED RETROSPOT               |
@@ -49,13 +49,23 @@ Plus full customer segmentation using **RFM Analysis**:
 - At Risk: 28%
 - Hibernating: 26%
 
-![Monthly Revenue](visuals/monthly_revenue.png)
-![Customer Segments](visuals/rfm_segments.png)
+*Top 10 Products by Revenue*
+![Top 10 Products by Revenue](Visuals/top10_products.png)
+
+*Monthly Sales Trend*
+![Monthly Revenue](Visuals/monthly_sales_trend.png)
 
 
-## Tech Stack
+## ⚙️ Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![MLxtend](https://img.shields.io/badge/MLxtend-FF6F61?style=flat)
 ![Scikit--learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat)
+
+### 📝 Key Takeaways
+1. **Never rely on one algorithm** – pure collaborative fails on new customers, pure content-based misses purchase patterns → hybrid wins
+2. **RFM + Recommendations = Gold**
+4. **Business impact > fancy deep learning** – this solution could be in production tomorrow
+
+
