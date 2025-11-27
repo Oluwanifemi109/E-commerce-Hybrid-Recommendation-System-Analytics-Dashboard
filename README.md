@@ -82,7 +82,7 @@ Plus full customer segmentation using **RFM Analysis**:
 | Time saved on manual merchandising    | 40+ hours per month                              |
 
 **Total expected annual profit uplift: £280,000 – £430,000**  
-(for a £1.1M retailer – using only lightweight Python code)
+(for a £1.1M retailer)
 
 ---
 
