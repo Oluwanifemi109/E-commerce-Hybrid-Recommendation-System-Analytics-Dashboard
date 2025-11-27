@@ -61,15 +61,15 @@ Plus full customer segmentation using **RFM Analysis**:
 *Monthly Sales Trend*
 ![Monthly Revenue](Visuals/monthly_sales_trend.png)
 
-
-## 🛠️ Tools
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) 
-![MLxtend](https://img.shields.io/badge/MLxtend-FF6F61?style=for-the-badge) 
-![Scikit--learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
-
-
+---
+## 🛠️ Toolkit
+- Python
+- Pandas
+- MLxtend
+- Scikit--learn
+- Matplotlib
+  
+---
 
 ## 🚀 Real-World Impact (Simulated)
 
@@ -84,6 +84,7 @@ Plus full customer segmentation using **RFM Analysis**:
 **Total expected annual profit uplift: £280,000 – £430,000**  
 (for a £1.1M retailer – using only lightweight Python code)
 
+---
 
 ### 📝 Key Takeaways
 1. **Never rely on one algorithm** – pure collaborative fails on new customers, pure content-based misses purchase patterns → hybrid wins
