@@ -10,9 +10,12 @@ Built a **hybrid recommendation system** (Association Rules + Content-Based) for
 **🏋️‍♂️ The Challenge**
 
 A UK-based online gift & homeware store was leaving money on the table:
-- No personalized product recommendations
-- Average Order Value plateauing
-- No insight into who their best customers were
+- Which products generate the most revenue and why?
+- Who are our highest-value customers and what do they buy together?
+- What time of the Year does sales flourish ?
+- What are the strongest product associations?
+- How can we increase average order value through intelligent cross-selling?
+- How can we personalize the shopping experience at scale?
 
 **💡 My Solution** 
 A Real Hybrid Recommendation Engine:
@@ -40,7 +43,6 @@ I built a **true hybrid system** combining two proven methods while also doing a
 | Customers who received 3 recs     | **100%** (4,372 /4,372)               |
 | Strongest rule confidence         | 91% (Green Regency Teacup → Roses Regency Teacup) |
 | Average rule lift                 | 8.2×                                  |
-| Top recommended product           | JUMBO BAG RED RETROSPOT               |
 
 **Key Insights Discovered**
 - Geography is destiny: 91%+ of revenue comes from the UK; international sales are negligible.
@@ -66,7 +68,7 @@ Plus full customer segmentation using **RFM Analysis**:
 - Python
 - Pandas
 - MLxtend
-- Scikit--learn
+- Scikit-learn
 - Matplotlib
   
 ---
@@ -75,11 +77,11 @@ Plus full customer segmentation using **RFM Analysis**:
 
 | Impact                                | Estimated Gain                                   |
 |---------------------------------------|--------------------------------------------------|
-| Increase Average Order Value (AOV)    | +18–28% (£3.50–£5.50 extra per order)            |
+| Increase Average Order Value (AOV)    | +18–15% (£3.50–£5.50 extra per order)            |
 | Additional cross-sell revenue / year  | £160,000 – £250,000 (no extra traffic cost)      |
 | Revenue from reactivating hibernating customers | £90,000 – £140,000                             |
 | Email marketing revenue uplift        | 2.5–3× higher revenue per send                   |
-| Time saved on manual merchandising    | 40+ hours per month                              |
+| Marketing team now has data-backed bundle ideas    | Better Christmas Catalog for current year                              |
 
 **Total expected annual profit uplift: £280,000 – £430,000**  
 (for a £1.1M retailer)
